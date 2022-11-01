@@ -71,7 +71,6 @@ ul li {
     margin: 0;
     margin-right: 50px;
     margin-bottom: 10px;
-    flex: 1;
 }
 
 .sign-up {
@@ -85,8 +84,6 @@ ul li {
     padding-right: 30px;
     font-size: 15px;
     font-weight: bold;
-    flex: 1;
-
 }
 
 .placeholder-image {
@@ -94,7 +91,6 @@ ul li {
     background-color: grey;
     padding-left: 600px;
     padding-bottom: 300px;
-    flex: 1;
 }
 
 .mid {
@@ -112,23 +108,94 @@ ul li {
 
 .information-wrapper {
     display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
     justify-content: center;
     flex-direction: row;
     gap: 30px;
-    flex-wrap: wrap;
     text-align: center;
 }
 
 .information {
     display: inherit;
+    text-align: center;
     padding: 100px;
     border: 5px solid #3882F6;
     border-radius: 10px;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 200px;
+    background-color: #E5E7EB;
+}
+
+.text {
     display: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 300px;
+    font-style: italic;
+    font-size: 48px;
+}
+
+.author {
+    display: inherit;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.advert {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    margin: 200px;
+    color: black;
+    padding: 50px;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.call-to-action {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.container-text {
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.button {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    background-color: #3882F6;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #1F2937;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    color: white;
 }
