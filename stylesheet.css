@@ -2,7 +2,6 @@ body {
     display: flex;
     margin: 0;
     flex-direction: column;
-    flex: 1;
 }
 
 .container-1 {
@@ -11,23 +10,22 @@ body {
     background-color: #1F2937;
     padding-bottom: 150px;
     padding-top: 18px;
-    flex: 1;
 }
 
 .logo {
-    display: inherit;
     font-size: 24px;
     color: #F0FAF8;
+    font-weight: bolder;
     margin: 0;
     flex: 1;
 }
 
 .header {
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 100px;
     flex: 1;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 385px;
+    margin-right: 300px;
 }
 
 ul {
@@ -35,14 +33,11 @@ ul {
     flex-direction: row;
     list-style-type: none;
     margin: 0;
-    margin-left: auto;
     flex: 1;
 }
 
 ul li {
-    display: inherit;
     list-style-type: none;
-    margin-left: 2px;
     flex: 1;
     font-size: 18px;
     color: #E5E7EB
@@ -50,24 +45,20 @@ ul li {
 
 .content {
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    flex: 1;
+    margin-left: 380px;
+    margin-right: 380px;
 }
 
 .title {
-    display: inherit;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     margin: 0;
     margin-right: 50px;
     margin-bottom: 10px;
-    flex: 1;
 }
 
 .description {
-    display: inherit;
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
@@ -105,18 +96,15 @@ ul li {
     margin-left: 200px;
     margin-right: 200px;
     justify-content: center;
-    flex-direction: row;
     gap: 30px;
     text-align: center;
 }
 
 .project {
-    display: inherit;
     text-align: center;
     padding: 100px;
     border: 5px solid #3882F6;
     border-radius: 10px;
-    width: 50px;
 }
 
 .quote-container {
@@ -129,7 +117,6 @@ ul li {
 }
 
 .quote {
-    display: inherit;
     font-style: italic;
     font-size: 48px;
 }
@@ -144,14 +131,12 @@ ul li {
 
 .advert {
     display: flex;
-    flex-direction: row;
     background-color: #3882F6;
     margin: 200px;
     color: black;
     padding: 50px;
     border-radius: 5px;
     justify-content: space-around;
-    flex: 1;
 }
 
 .call-to-action {
@@ -167,25 +152,21 @@ ul li {
     margin-top: 0;
 }
 
-.button {
+.advert-github {
     display: flex;
     width: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
     justify-content: center;
     align-items: center;
     height: 40px;
-    margin-top: auto;
-    margin-bottom: auto;
     border: 2px solid white;
     border-radius: 5px;
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 15px 5px 15px;
     font-weight: bolder;
     background-color: #3882F6;
     font-size: 16px;
-    list-style-type: none;
     text-decoration: none;
 }
 
