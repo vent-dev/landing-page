@@ -102,13 +102,6 @@ ul li {
 
 .project {
     text-align: center;
-    padding: 100px;
-    border: 5px solid #3882F6;
-    border-radius: 10px;
-}
-
-.landing-page {
-    text-align: center;
     padding: 0;
     border: 5px solid #3882F6;
     border-radius: 10px;
