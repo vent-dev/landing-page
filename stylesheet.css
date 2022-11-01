@@ -154,6 +154,7 @@ ul li {
     margin: 200px;
     color: black;
     padding: 50px;
+    border-radius: 5px;
     justify-content: space-around;
     flex: 1;
 }
