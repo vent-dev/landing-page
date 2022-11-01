@@ -107,6 +107,15 @@ ul li {
     border-radius: 10px;
 }
 
+.landing-page {
+    text-align: center;
+    padding: 0;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
 .quote-container {
     display: flex;
     flex-direction: column;
