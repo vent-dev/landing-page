@@ -92,7 +92,7 @@ ul li {
     flex-direction: column;
 }
 
-.info-title {
+.project-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -100,7 +100,7 @@ ul li {
     margin-right: auto;
 }
 
-.info-container {
+.project-container {
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
@@ -110,12 +110,13 @@ ul li {
     text-align: center;
 }
 
-.information {
+.project {
     display: inherit;
     text-align: center;
     padding: 100px;
     border: 5px solid #3882F6;
     border-radius: 10px;
+    width: 50px;
 }
 
 .quote-container {
