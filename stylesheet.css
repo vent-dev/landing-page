@@ -1,6 +1,7 @@
 body {
     display: flex;
     margin: 0;
+    flex-direction: column;
 }
 
 .top {
@@ -94,4 +95,40 @@ ul li {
     padding-left: 600px;
     padding-bottom: 300px;
     flex: 1;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.information {
+    display: inherit;
+    padding: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote {
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
 }
